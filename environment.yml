@@ -9,6 +9,6 @@ dependencies:
   - python=3.6.8=h9f7ef89_7
   - pytorch=1.1.0=py3.6_cuda100_cudnn7_1
   - torchvision=0.3.0=py36_cu100_1
+  - tqdm=4.31.1=py36_1
   - pip:
     - torchnet==0.0.4
-

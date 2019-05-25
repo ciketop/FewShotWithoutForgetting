@@ -3,3 +3,4 @@ h5py
 torch
 torchnet
 torchvision
+tqdm
