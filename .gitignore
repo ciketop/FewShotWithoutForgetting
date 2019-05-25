@@ -3,3 +3,11 @@ datasets
 *~
 *.pyc
 data/*/
+
+# Misc files
+.DS_Store
+
+# IDE settings
+.idea/
+.vscode/
+
