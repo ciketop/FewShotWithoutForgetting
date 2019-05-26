@@ -8,12 +8,14 @@ Paper see [arXiv](https://arxiv.org/abs/1804.09458)
 - **CUDA** **9.0**, **9.2** or **10.0**
 - **Python 2.7**
     - pytorch **0.3.1**
+      - if you have CUDA 10.0 installed, you need to install pytorch via `pip install torch==0.3.1 -f https://download.pytorch.org/whl/cu100/stable`
     - torchvision **0.2.0**
+      - `pip install torchvision==0.2.0 -f https://download.pytorch.org/whl/cu100/stable`
     - other dependencies see [requirement.txt](./requirements.txt)
 
 ## Running experiments on mini-ImageNet.
 1. download the MiniImagenet dataset from [here](https://mega.nz/#!rx0wGQyS!96sFlAr6yyv-9QQPCm5OBFbOm4XSD0t-HlmGaT5GaiE)
-1. extra to `<project root>/datasets`
+2. extra to `<project root>/datasets`
 
 ### Training and evaluating our model on Mini-ImageNet.
 
